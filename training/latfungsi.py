@@ -44,9 +44,15 @@ def say_goodbye(nama):
 say_goodbye("agus")
 
 print("\n")
-def info_siswa():
-    namas = input('Masukkan nama anda : ')
-    jurusan = input('Masukkan jurusan anda : ')
-    print(f"nama siswa {namas}\njurusan {jurusan}")
+# def info_siswa():
+#     namas = input('Masukkan nama anda : ')
+#     jurusan = input('Masukkan jurusan anda : ')
+#     print(f"nama siswa {namas}\njurusan {jurusan}")
 
-info_siswa()
+# info_siswa()
+
+
+def notification(alert):
+    print(f"Peringatan Dini Daerah Ngawi : {alert}")
+
+notification("Banjir Bandang")
