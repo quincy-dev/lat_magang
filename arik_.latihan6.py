@@ -9,7 +9,7 @@
 # 4. Gunakan looping untuk alur aplikasi
 # 5. Hitung total harga dan kembalian pembayaran
 def tampilkan_menu(nama_pembeli):
-    print("======================")
+    print("==============================")
     print(f"Selamat Datang di Bioskop XXI, {nama_pembeli}")
     print("Silahkan Pilih Menu Di bawah")
     print("1. Reguler   :   35000")
@@ -18,7 +18,7 @@ def tampilkan_menu(nama_pembeli):
     print("4. 3D        :   60000")
     print("5. Selesai")
     pilihan = input("Silahkan pilih menu dari (1-5): ")
-    print("======================")
+    print("==============================")
     return pilihan
 def main():
     harga_tiket = {
