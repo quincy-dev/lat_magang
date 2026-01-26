@@ -1,13 +1,3 @@
-# SOAL 2 – APLIKASI PEMBELIAN TIKET BIOSKOP
-# Sebuah bioskop menyediakan berbagai jenis tiket. Pembeli dapat membeli lebih dari satu jenis tiket
-# sebelum melakukan pembayaran.
-# Data Tiket:- Reguler : Rp 35.000- VIP : Rp 50.000- Couple : Rp 90.000- 3D : Rp 60.000
-# Ketentuan:
-# 1. Program meminta input nama pembeli
-# 2. Menu utama dibuat menggunakan function
-# 3. Gunakan dictionary untuk menyimpan harga tiket
-# 4. Gunakan looping untuk alur aplikasi
-# 5. Hitung total harga dan kembalian pembayaran
 def tampilkan_menu(nama_pembeli):
     print("==============================")
     print(f"Selamat Datang di Bioskop XXI, {nama_pembeli}")
