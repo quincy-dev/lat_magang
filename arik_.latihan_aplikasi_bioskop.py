@@ -21,13 +21,13 @@ def main():
     total_harga = 0
     while True:
         pilihan = tampilkan_menu(nama_pembeli)
-        if pilihan in ["1", "2", "3", "4"]:
+        if pilihan in ["1", "2", "3", "4"]: #harga_tiket.keys()
             jumlah_tiket = int(input("Masukkan jumlah tiket yang ingin dibeli: "))
             total_harga += harga_tiket[pilihan] * jumlah_tiket
             print(f"Tiket berhasil ditambahkan. Total harga sementara: Rp {total_harga}")
         elif pilihan == "5":
             print(f"Total harga yang harus dibayar: Rp {total_harga}")
-            pembayaran = int(input("Masukkan jumlah pembayaran: Rp "))
+            pembayaran = int(input("Masukkan jumlah pembayar  an: Rp "))
             if pembayaran >= total_harga:
                 kembalian = pembayaran - total_harga
                 print(f"Pembayaran berhasil. Kembalian Anda: Rp {kembalian}")
@@ -36,5 +36,6 @@ def main():
             break
         else:
             print("Pilihan tidak valid, silahkan coba lagi.")
-main()
+if __name__ == "__main__":
+    main()
 
