@@ -1,14 +1,12 @@
 #soal 1
-class Buah:
-    def __init__(self, nama, warna):
-        self.nama = nama
-        self.warna = warna
+class buah: 
+    nama = "apel" 
+    warna = "merah" 
 
-buah1 = Buah("Apel", "Merah")
-buah2 = Buah("Pisang", "Kuning")
-
-print(buah1.nama, buah1.warna)
-print(buah2.nama, buah2.warna)
+buah = buah()
+    
+print(buah.nama) 
+print(buah.warna)
 
 print("-----")
 #soal 2
