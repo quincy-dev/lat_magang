@@ -1,12 +1,13 @@
 #soal 1
-class buah: 
+class Buah: 
     nama = "apel" 
     warna = "merah" 
 
-buah = buah()
+Buah1 = Buah()
+Buah2 = Buah()
     
-print(buah.nama) 
-print(buah.warna)
+print(Buah1.nama) 
+print(Buah1.warna)
 
 print("-----")
 #soal 2
