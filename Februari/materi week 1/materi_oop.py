@@ -39,7 +39,7 @@
 # saat object dibuat
 
 # class Mobil2:
-#     def __init__(self, warna, merk, size_big=0):
+#     def __init__(self, warna, merk, size_big=0): 
 #         self.warna = warna   # self menunjuk ke object itu sendiri
 #         self.merk = merk # Mobil2.merk = merk
 

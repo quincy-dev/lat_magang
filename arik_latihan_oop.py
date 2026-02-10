@@ -129,18 +129,24 @@ class Kendaraan:
         print("Kendaraan berjalan")
 
 class Motor(Kendaraan):
+    def nyalakan_mesin(self):
+        print("Mesin motor dinyalakan")
     def roda_dua(self):
         print("Motor dengan dua roda")
 
 class Mobil(Kendaraan):
+    def nyalakan_mesin(self):
+        print("Mesin mobil dinyalakan")
     def roda_empat(self):
         print("Mobil dengan empat roda")
 
 motor_saya = Motor()
 motor_saya.jalan()
+motor_saya.nyalakan_mesin()
 motor_saya.roda_dua()
 mobil_saya = Mobil()
 mobil_saya.jalan()
+mobil_saya.nyalakan_mesin()
 mobil_saya.roda_empat()
 
 
